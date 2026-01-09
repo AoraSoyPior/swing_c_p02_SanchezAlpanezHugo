@@ -1,48 +1,28 @@
 # Gestión de Apartamentos Turísticos AlmeriaCruising
 
 ## Descripción del proyecto
-Este proyecto consiste en una aplicación de escritorio desarrollada en Java utilizando la librería Swing. Su propósito es gestionar el alta de inmuebles turísticos para la empresa AlmeriaCruising, permitiendo introducir datos del arrendador y detalles técnicos del inmueble, con validaciones en tiempo real y cálculo automático de precios.
+Este proyecto consiste en una aplicación de escritorio desarrollada para la gestión de inmuebles turísticos. La herramienta permite el registro de arrendadores y la configuración detallada de viviendas, incluyendo validaciones de seguridad para datos sensibles y un sistema de cálculo de precios dinámico basado en las características del inmueble.
 
 ## Contenido de la publicación
-La estructura de este repositorio se organiza de la siguiente manera:
-* [cite_start]**desarrollo**: Contiene el código fuente completo del proyecto de la práctica[cite: 6].
-* [cite_start]**ejecutable**: Incluye el archivo ejecutable (JAR) de la aplicación[cite: 7].
-* [cite_start]**documentación técnica**: Contiene el Javadoc generado para todas las clases del proyecto[cite: 8].
-* [cite_start]**documentos**: Incluye el documento relativo al análisis de usabilidad de la aplicación[cite: 9].
+Siguiendo los requisitos de la práctica, el repositorio se estructura en los siguientes directorios:
+* **desarrollo**: Carpeta que contiene el proyecto completo con el código fuente de la aplicación.
+* **ejecutable**: Directorio donde se ubica el archivo JAR para la ejecución directa del software.
+* **documentación técnica**: Espacio destinado al Javadoc generado para las clases del proyecto.
+* **documentos**: Carpeta que incluye el análisis de usabilidad de la interfaz.
 
 ## Desarrollo del proyecto
-Para el desarrollo se han implementado las siguientes funcionalidades:
-* Ventana principal con barra de menú y accesos rápidos (mnemónicos y aceleradores).
-* Diálogo de alta de pisos con validaciones mediante expresiones regulares para DNI y teléfono.
-* Interfaz dinámica que muestra u oculta selectores de camas según el número total seleccionado.
-* Panel de resumen dinámico mediante un JTabbedPane que vuelca los datos al pulsar el botón de imprimir.
-* Sistema de cambio de tema (Look and Feel) entre modo claro y oscuro.
+Durante el desarrollo se han implementado las siguientes características técnicas:
+* Interfaz principal con barra de menú, mnemónicos y aceleradores para una navegación eficiente.
+* Ventana de alta mediante JDialog modal con validación de DNI y teléfono mediante expresiones regulares.
+* Componentes dinámicos que muestran u ocultan elementos según la interacción del usuario.
+* Sistema de resumen de datos mediante JTabbedPane antes de la confirmación del registro.
+* Implementación de Look and Feel con soporte para temas claro y oscuro mediante la librería FlatLaf.
 
 ## Despliegue
-Para ejecutar la aplicación a través del archivo ejecutable incluido, siga los pasos correspondientes a su entorno:
+Para ejecutar la aplicación desde el archivo ejecutable, siga estas instrucciones:
 
 ### Windows
-1. Navegue hasta la carpeta `ejecutable`.
-2. Haga doble clic sobre el archivo `.jar` (es necesario tener instalado el JRE o JDK 17 o superior).
+1. Localice el archivo .jar en la carpeta ejecutable.
+2. Realice doble clic sobre el archivo para iniciar la aplicación (requiere Java 17 o superior).
 
 ### Línea de comandos
-1. Abra un terminal o símbolo del sistema.
-2. Acceda a la ruta donde se encuentra el ejecutable.
-3. Ejecute el comando: `java -jar nombre_del_archivo.jar`
-
-## Construido con
-* **Java Swing**: Para la creación de la interfaz gráfica.
-* **FlatLaf**: Para el diseño y soporte de temas claro y oscuro.
-* **JCalendar**: Para la gestión de componentes de calendario y fechas.
-
-## Versionado
-* **Versión 1.0**: Versión inicial con funcionalidades de alta, validación y temas.
-
-## Autores
-* **Hugo Sánchez Alpañez** - Estudiante de DAM en IES Al-Andalus.
-
-## Licencia
-Este proyecto es de uso académico para la asignatura de Desarrollo de Interfaces.
-
-## Recursos adicionales
-* [cite_start]Puedes consultar el repositorio y futuras actualizaciones en el siguiente enlace: [Link a la propia página de GitHub] [cite: 24]
