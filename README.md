@@ -44,4 +44,4 @@ Para ejecutar la aplicación desde el archivo ejecutable, siga estas instruccion
 Este software ha sido realizado con fines exclusivamente académicos para la asignatura de Desarrollo de Interfaces.
 
 ## Recursos adicionales
-* **Link al repositorio**: [Añadir aquí el enlace a la página de GitHub al realizar la entrega]
+* **Link al repositorio**: [[Añadir aquí el enlace a la página de GitHub al realizar la entrega](https://github.com/AoraSoyPior/swing_c_p02_SanchezAlpanezHugo)]
